@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 95%;
+    height: 100vh
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-img {
+    width: 13%;
+    font-size: 1.5rem;
+}
+
+nav ul{
+    display: inline-flex;
+    list-style-type: none;
+
+}
+
+nav ul li{
+    padding: 2rem 1.2rem 2rem 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+nav ul li :hover{
+    color: darkgreen;
+}
+
+.btn-group{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+    cursor: pointer;
+    
+    
+}
+
+.btn-1{
+    padding: 1.3rem 2rem 1.3rem 2rem;
+    background-color: darkgreen;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 20px;
+    color: white;
+    transition: transform .3s;
+}
+
+.btn-2{
+    padding: 1.3rem 2rem 1.3rem 2rem;
+    background-color: darkblue;
+    border: 2px transparent red;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 20px;
+    color: white;
+    transition: transform .3s;
+}
+
+.btn-1:hover{
+    transform: scale(1.1);
+    background-color: darkblue;
+}
+
+.btn-2:hover{
+    transform: scale(1.1);
+    background-color: darkgreen;
+}
+
+
+.banner-container{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 6%;
+    align-items: center;
+    
+}
+
+.banner-header{
+    width: 50%;
+}
+
+.crypto-img{
+    width: 50%;
+}
+
+.img-1{
+    width: 30%;
+    margin-top: 5%;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 50px;
+}
+
+p{
+    font-size: 1.1rem;
+    margin-top:3% ;
+}
